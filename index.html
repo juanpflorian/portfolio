@@ -1,93 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Portafolio ejemplo</title>
+    <title>PORTAFOLIO</title>
 </head>
-
 <body>
     <header>
-        <h1>Mi Portafolio</h1>
-        <h2>Tu Nombre</h2>
-        <p>Desarrollador Web</p>
+        <h1>Portfolio By Juan P. Florian</h1>
+        <h2>Welcome, I'm a junior backend programmer and data analyst</h2>
     </header>
 
-    <section id="proyectos">
-        <article>
-            <h3>Proyecto 1</h3>
-            <p>Descripción del proyecto 1.</p>
-            <ul>
-                <li>Tecnología 1</li>
-                <li>Tecnología 2</li>
-                <li>Tecnología 3</li>
-            </ul>
-            <img src="proyecto1.jpg" alt="Proyecto 1">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO1" frameborder="0"
-                allowfullscreen></iframe>
-        </article>
+    <div class="container">
+        <section title="Introduction">
+            <h3>Introduction</h3>
+            <p>Welcome to my portfolio of projects as a junior backend programmer and data analyst. It reflects my passion for crafting robust technological solutions and delving into meaningful data exploration.</p>
+            <p>With skills in languages like Python and Java, coupled with experience in SQL databases and data analysis tools, I am ready to tackle challenges and contribute to the development of robust applications and data-driven decision-making. My commitment to continuous improvement and problem-solving drives me to keep learning and growing in this exciting field.</p>
+        </section>
 
-        <article>
-            <h3>Proyecto 2</h3>
-            <p>Descripción del proyecto 2.</p>
-            <ul>
-                <li>Tecnología 1</li>
-                <li>Tecnología 2</li>
-                <li>Tecnología 3</li>
-            </ul>
-            <img src="proyecto2.jpg" alt="Proyecto 2">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO2" frameborder="0"
-                allowfullscreen></iframe>
-        </article>
+        <section title="Site web">
+            <h3>*SITE WEB FOR MOVIES WITH LOGIN*</h3>
+            <p>My web project is a movie management application consisting of three main sections: a homepage, a login system, and a platform to record and store previously watched movies. This application provides users with a personalized experience to keep track of the movies they have watched, allowing them to maintain an organized viewing history and easily access movie information.</p>
 
-        <article>
-            <h3>Proyecto 3</h3>
-            <p>Descripción del proyecto 3.</p>
-            <ul>
-                <li>Tecnología 1</li>
-                <li>Tecnología 2</li>
-                <li>Tecnología 3</li>
-            </ul>
-            <img src="proyecto3.jpg" alt="Proyecto 3">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO3" frameborder="0"
-                allowfullscreen></iframe>
-        </article>
-    </section>
+            <h4>Home Page:</h4>
+            <img src="img/homepage.jpg" alt="HOME PAGE" width="1000">
 
-    <section id="habilidades">
-        <h2>Habilidades</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
-    </section>
+            <h4>Login</h4>
+            <img src="img/login.jpg" alt="Login" width="500" height="400">
 
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
+            <h4>Registration</h4>
+            <img src="img/registration.jpg" alt="Registration" width="500">
 
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required>
+            <h4>Platform</h4>
+            <img src="img/plataform.jpg" alt="Platform" width="800" style="display: flex;">
 
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <p>
+                <h4>Explorer</h4>
+                <center><img class="left-aligned-img" src="img/explorar.PNG" alt="Explorer" width="200"></center> <center>Page with digital platforms</center>
+            </p>
+            
+        </section>
 
-            <input type="submit" value="Enviar">
-        </form>
-    </section>
+        <section title="Databases">
+            <h3>DATABASE FOR IMPORT TECH</h3>
+            <p>This project has been carried out in partnership with a Colombian company, "Impor Tech," an e-commerce enterprise that collaborates with external technology brands. It required the creation of a database to manage the following: customers, customer phone numbers, suppliers, customer and supplier addresses, products, categories, billing, and sales details.</p>
+
+            <h4>Diagram</h4>
+            <img src="img/DIAGRAMADB.PNG" alt="Diagram" width="1000">
+
+            <h4>Show MYSQL</h4>
+            <h3>TABLES:</h3>
+            <div class="table-example">
+                <h3>Table for Customers</h3>
+                <img src="img/clientes_tech.PNG" alt="Customers Table"><p><center>*This is an example*</center></p>
+            </div>
+
+            <div class="table-example">
+                <h3>Table for Suppliers</h3>
+                <img src="img/provedores_tech.PNG" alt="Suppliers Table"><p><center>*This is an example*</center></p>
+            </div>
+        </section>
+
+        <section title="Skills" id="skills-section">
+            <h3><center>Skills</center></h3>
+            <div id="icon-container">
+                <p><img src="img/italia.png" alt="Italian Flag" width="61"></p>
+                <p><img src="img/reino-unido.png" alt="UK Flag" width="61"></p>
+                <p><img src="img/espana.png" alt="Spanish Flag" width="61" ></p>
+                <p><img src="img/python.png" alt="Python Logo" width="61"></p>
+                <p><img src="img/sql.png" alt="SQL Logo" width="61"></p>
+                <p><img src="img/excel.png" alt="Excel Logo" width="61"></p>
+                <p><img src="img/html.png" alt="HTML Logo" width="61"></p>
+                <p><img src="img/css.png" alt="CSS Logo" width="61"></p>
+            </div>
+        </section>
+    </div>
+
     <footer>
-        <h2>Redes Sociales</h2>
-        <ul>
-            <li><a href="https://www.linkedin.com/tu_perfil" target="_blank">LinkedIn</a></li>
-            <li><a href="https://www.twitter.com/tu_perfil" target="_blank">Twitter</a></li>
-            <li><a href="https://www.github.com/tu_perfil" target="_blank">GitHub</a></li>
-        </ul>
+        &copy; 2023 Juan P. Florian - Portfolio
     </footer>
 </body>
-
 </html>
